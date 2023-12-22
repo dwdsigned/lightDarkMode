@@ -26,8 +26,16 @@ html {
 
 body {
   margin: 0;
-  background-image: url("./patternTrySVG2.svg");
-  background-repeat: repeat repeat;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("./patternTry_5.svg");
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 section {
