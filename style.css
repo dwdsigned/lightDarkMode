@@ -26,16 +26,9 @@ html {
 
 body {
   margin: 0;
-}
-
-.background {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-image: url("./patternTry_5.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: var(--on-background);
+  background-color: var(--background);
+  background-image: url("./musicPattern.svg");
 }
 
 section {
