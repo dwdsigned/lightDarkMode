@@ -9,36 +9,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="nav">
-        <!-- Dynamic Navigation bar -->
-        <ul id="navbar__list"></ul>
-    </nav>
-    <!-- Home Section -->
-    <section id="home">
+    <header class="page__header">
+        <!-- Navigation -->
+        <nav id="nav" class="navbar__menu">
+            <!-- Dynamic Navigation bar -->
+            <ul id="navbar__list"></ul>
+        </nav>
+    </header>
+    <!-- Section 1-->
+    <section id="home" data-nav="Home">
         <div class="title-group">
             <h1>Custom Title Here</h1>
-            <h2>Welcome to the Website</h2>
+            <h2>Greeting</h2>
         </div>
     </section>
-    <section id="home">
-        <div class="title-group">
-            <h1>Custom Title Here</h1>
-            <!-- <h2>Welcome to the Website</h2> -->
-        </div>
-    </section>
-    <section id="home">
+    <!-- Section 2 -->
+    <section id="about" data-nav="About">
         <div class="title-group">
             <h1>Custom Title Here</h1>
             <!-- <h2>Welcome to the Website</h2> -->
         </div>
     </section>
-    <section id="home">
+    <!-- Section 3 -->
+    <section id="project" data-nav="Projects">
         <div class="title-group">
             <h1>Custom Title Here</h1>
-            <h2>Welcome to the Website</h2>
+            <h2>Greeting</h2>
+        </div>
+        <!-- Section 4 -->
+    <section id="contact" data-nav="Contact">
+        <div class="title-group">
+            <h1>Custom Title Here</h1>
+            <!-- <h2>Welcome to the Website</h2> -->
         </div>
     </section>
+    </section>
+    <!-- Footer -->
+    <footer class="page__footer">
+        <p>&copy Darius Williams</p>
+      </footer>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
