@@ -190,6 +190,7 @@ p {
 
 /* Contact Section */
 .fab {
+  /* styles icons using code below */
   font-size: 100px;
   margin-right: 50px;
   cursor: pointer;
