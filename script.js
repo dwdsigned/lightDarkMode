@@ -24,6 +24,9 @@
 const navMenu = document.querySelector('#navbar__list');
 // Grabs all sections elements
 const sectionElements = document.querySelectorAll('section');
+// Grab all h1 elements
+const headerElements = document.querySelectorAll('h1');
+// 
 
 // Dynamically builds a navigation menu
 function buildMenu() {
@@ -35,6 +38,8 @@ function buildMenu() {
         const sectionId = section.id;
         // Assigns dataset attribute to a variable
         const dataNavigate = section.dataset.nav;
+        // Generates Headers Dynamically
+        headerElements[i].textContent = dataNavigate;
         // Create li element
         const navListElement = document.createElement('li');
         // Create anchor element
